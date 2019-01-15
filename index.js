@@ -1,16 +1,12 @@
-function takeANumber (currentLine, name) {
-  currentLine.push(name);
-  return `Welcome, ${name}. You are number ${currentLine.length} in line.`
-}
+function takeANumber (currentLine, ) {
+  
+  var ticketnumber = currentline.length
+  
+  currentLine.push(ticketnumber);
+  return `Welcome, your ticket number is ${ticketnumber}`
 
-function nowServing (KatzDeliLine) {
-  if (KatzDeliLine.length === 0) {
-    return "There is nobody waiting to be served!"
-  } else {
-    return `Currently serving ${KatzDeliLine.shift()}.`
   }
-}
-
+  
 function currentLine(line) {
   if (line.length === 0 ) {
     return "The line is currently empty."
