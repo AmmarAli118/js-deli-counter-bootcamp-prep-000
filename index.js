@@ -1,6 +1,6 @@
 function takeANumber (currentLine, ) {
   
-  var ticketnumber += ticketnumer + 1
+  var ticketnumber += ticketnumber + 1
   
   currentLine.push(ticketnumber);
   return `Welcome, your ticket number is ${ticketnumber}`
